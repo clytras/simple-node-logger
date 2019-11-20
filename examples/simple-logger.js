@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-const log = require('../lib/SimpleLogger').createSimpleLogger({level:'info'});
+const log = require('../lib/SimpleLogger').createSimpleLogger({
+    level:'info',
+    filterMessage: (msg) => `[[${msg}]]`
+});
 
 log.trace('this is a simple trace log statement (should not show)');
 log.debug('this is a simple debug log statement (should not show)');

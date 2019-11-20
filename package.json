@@ -1,11 +1,11 @@
 {
-  "name": "simple-node-logger",
-  "version": "18.12.23",
+  "name": "@lytrax/simple-node-logger",
+  "version": "19.0.0",
   "description": "A node console and file logger suitable for small, medium and large production projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/darrylwest/simple-node-logger.git"
+    "url": "git://github.com/clytras/simple-node-logger.git"
   },
   "scripts": {
     "test": "make test"
@@ -35,5 +35,5 @@
   ],
   "author": "darryl.west@raincitysoftware.com",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/darrylwest/simple-node-logger"
+  "homepage": "https://github.com/clytras/simple-node-logger"
 }
